@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    background-color: rgb(5, 92, 173);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(5, 92, 173);
+    flex-direction: column;
+    align-items: center;
+}
+  
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.title h1 {
+    color: #ffffff;
+    margin: 0;
+    display: inline;
+}
+  
+.title ul {
+    display:flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.title ul li {
+    margin-right: 50px;
+}
+  
+.mercado {
+    text-align: center;
+}
+  
+/*rodapé*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.links, .contatos, .redes {
+    flex: 1;
+    margin-right: 30px;
+    color: #ffffff;
+}
+  
+.links {
+    order: 1;
+}
+  
+.contatos {
+    order: 2;
+}
+  
+.redes {
+    order: 4;
+}
+  
+h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 5px;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
